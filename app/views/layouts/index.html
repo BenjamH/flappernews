@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>FlapperNews</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+    <style> .glyphicon-thumbs-up { cursor:pointer } </style>
+  <script src="app.js"></script>
+</head>
+<body ng-app="flapperNews">
+  <a ui-sref="home">home</a>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+
+      <div class="page-header">
+        <h1>Flapper News</h1>
+        <div ui-view></div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+</body>
+</html>
